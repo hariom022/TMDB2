@@ -1,0 +1,41 @@
+.banner-Image {
+  background-image: url("../Image/imgbanner.jpg");
+  height: 504px;
+  background-position: 0 -42px;
+  background-repeat: no-repeat;
+  background-size: 1230px;
+  margin: 0px 111px 0px 152px;
+
+  .input-box {
+    width: 100%;
+    .MuiFormControl-root {
+      width: 83%;
+      background: white;
+      border: none;
+      border-radius: 37px;
+      height: 48px;
+
+      .MuiInputBase-root {
+        width: 95%;
+        border: none;
+
+        input {
+          width: 80%;
+          padding: 12px 19px;
+        }
+        fieldset {
+          border: none;
+        }
+        Button {
+          background-color: red; /* For browsers that do not support gradients */
+          background-image: linear-gradient(to right, red, yellow);
+
+          span {
+            background-color: red; /* For browsers that do not support gradients */
+            background-image: linear-gradient(to right, red, yellow);
+          }
+        }
+      }
+    }
+  }
+}
