@@ -4,10 +4,11 @@
   background-position: 0 -42px;
   background-repeat: no-repeat;
   background-size: 1230px;
-  margin: 0px 111px 0px 152px;
+  margin: 0px 159px -162px 145px;
 
   .input-box {
     width: 100%;
+    margin-top: 20px;
     .MuiFormControl-root {
       width: 83%;
       background: white;
@@ -25,15 +26,6 @@
         }
         fieldset {
           border: none;
-        }
-        Button {
-          background-color: red; /* For browsers that do not support gradients */
-          background-image: linear-gradient(to right, red, yellow);
-
-          span {
-            background-color: red; /* For browsers that do not support gradients */
-            background-image: linear-gradient(to right, red, yellow);
-          }
         }
       }
     }

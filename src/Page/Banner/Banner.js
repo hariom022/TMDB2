@@ -6,16 +6,40 @@ import Img from "../Image/img3.jpg";
 const Banner = () => {
   return (
     <div className="banner-Image">
-      <Box sx={{ padding: "145px 0px 0px 0px" }}>
-        <Typography>Welcome .</Typography>
-        <Typography>
+      <Box sx={{ pt: "80px" }}>
+        <Typography
+          sx={{
+            textAlign: "start",
+            marginLeft: "70px",
+            color: "white",
+            fontSize: "60px",
+            fontweight: "bold",
+          }}
+          variant="h3"
+        >
+          Welcome .
+        </Typography>
+        <Typography
+          sx={{
+            textAlign: "start",
+            marginLeft: "70px",
+            color: "white",
+            fontSize: "24px",
+            fontWeight: "800",
+          }}
+          variant="h6"
+        >
           Millions of movies, TV shows and people to discover. Explore now.
         </Typography>
         <div className="input-box">
           <TextField placeholder="Search for movie ,tv Show,persion..." />
           <Button
             variant="contained"
-            sx={{ height: "48px", borderRadius: "37px" }}
+            sx={{
+              height: "48px",
+              borderRadius: "37px",
+              background: "linear-gradient(to right, #32cd32 , #2edaff)",
+            }}
           >
             Search
           </Button>
