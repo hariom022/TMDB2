@@ -10,14 +10,27 @@
         width: 100%;
 
         .owl-item {
-          width: 150px !important;
+          width: 157px !important;
           .active {
-            width: 150px !important;
+            width: 157px !important;
           }
           .cloned {
-            width: 150px !important;
+            width: 157px !important;
             margin: 0;
           }
+        }
+        .vote {
+          font-size: 13px;
+          position: fixed;
+          border: 2px solid black;
+          border-radius: 50%;
+          width: 33px;
+          height: 27px;
+          text-align: center;
+          padding-top: 5px;
+          margin: -28px 0px 17px 12px;
+          background: blueviolet;
+          color: white;
         }
       }
     }
@@ -29,6 +42,6 @@
 
 .css-13xfq8m-MuiTabPanel-root {
   // width: 100% !important;
-  overflow-y: scroll;
+  // overflow-y: scroll;
   overflow-x: hidden !important;
 }

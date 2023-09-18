@@ -27,6 +27,7 @@ const TrendingDay = () => {
                   src={`https://image.tmdb.org/t/p/original/${item.poster_path}`}
                   alt=""
                 />
+                <p className="vote">{item.vote_average}</p>
                 <p>{item.title}</p>
               </div>
             );

@@ -20,7 +20,7 @@ const Trending = (props) => {
   };
   return (
     <div className="form-box">
-      <p>Trending</p>
+      <h3>Trending</h3>
       <div className="button-box">
         <Box sx={{ width: "100%", typography: "body1" }}>
           <TabContext value={value}>

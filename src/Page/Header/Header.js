@@ -28,7 +28,7 @@ const Header = () => {
             <li>
               <Button
                 variant="outlined"
-                sx={{ color: "white", border: "2px solid white" }}
+                sx={{ color: "white", border: "2px solid white", p: "0px" }}
               >
                 EN
               </Button>

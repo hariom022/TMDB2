@@ -28,7 +28,8 @@ const TrendingWeeks = () => {
                   src={`https://image.tmdb.org/t/p/original/${item.poster_path}`}
                   alt=""
                 />
-                <p>{item.title}</p>
+                <p className="vote">{item.vote_average}</p>
+                <p className="title">{item.title}</p>
               </div>
             );
           })}
