@@ -42,7 +42,7 @@ const Banner = () => {
               "@media (max-width:900px)": { height: "36px" },
             }}
           >
-            Search
+            SearchButton
           </Button>
         </div>
       </Box>
