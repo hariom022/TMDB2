@@ -1,3 +1,9 @@
+.img-tag {
+  img {
+    height: 22px;
+  }
+}
+
 ul {
   display: flex;
   align-items: center;
@@ -8,5 +14,49 @@ ul {
     list-style: none;
     align-items: center;
     display: flex;
+  }
+}
+
+.menu-button {
+  display: none;
+}
+
+.menu-item-nav {
+  width: 100%;
+}
+// ipad view
+
+@media only screen and (max-width: 910px) {
+  .img-tag {
+    img {
+      height: 12px;
+      // margin-left: -82px;
+    }
+  }
+  ul {
+    li {
+      margin-right: 10px;
+    }
+  }
+}
+
+//mobile view
+
+@media only screen and (max-width: 660px) {
+  .img-tag {
+    img {
+      height: 22px;
+    }
+  }
+
+  ul {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+
+    img {
+      margin-right: 20px;
+    }
   }
 }

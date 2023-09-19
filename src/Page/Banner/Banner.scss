@@ -31,3 +31,34 @@
     }
   }
 }
+
+// ipad view
+
+@media only screen and (max-width: 900px) {
+  .banner-Image {
+    .input-box {
+      // width: 100%;
+      // margin-top: 20px;
+      .MuiFormControl-root {
+        width: 58%;
+        background: white;
+        border: none;
+        border-radius: 37px;
+        height: 35px;
+
+        .MuiInputBase-root {
+          width: 95%;
+          border: none;
+
+          input {
+            width: 50%;
+            padding: 12px 19px;
+          }
+          fieldset {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}

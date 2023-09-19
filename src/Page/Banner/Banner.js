@@ -39,6 +39,7 @@ const Banner = () => {
               height: "48px",
               borderRadius: "37px",
               background: "linear-gradient(to right, #32cd32 , #2edaff)",
+              "@media (max-width:900px)": { height: "36px" },
             }}
           >
             Search
